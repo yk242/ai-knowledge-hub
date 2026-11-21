@@ -19,11 +19,14 @@ Markdown の技術メモや議事録を管理し、生成 AI による自動要�
 - [ ] JWT 認証・認可・設定管理・構造化ログ
 - [ ] 生成 AI 連携（自動要約・タグ抽出・`pgvector` RAG・SSE ストリーミング）
 
-## セットアップ
+## セットアップ・起動
 
 ```bash
 # 依存関係のインストール
 uv sync
+
+# 開発サーバー起動（Swagger UI: http://127.0.0.1:8000/docs）
+uv run uvicorn practice.main:app --reload
 ```
 
 ## 静的解析
