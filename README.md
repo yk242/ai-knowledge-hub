@@ -12,7 +12,7 @@ Markdown の技術メモや議事録を管理し、生成 AI による自動要�
 ## 現在の実装状況
 
 - [x] 開発・品質チェック基盤（`uv` / `ruff` / `pyright` / `pytest`）
-- [ ] ドキュメント管理 REST API（インメモリ CRUD・タグ検索・ページネーション・Pydantic バリデーション）
+- [x] ドキュメント管理 REST API（インメモリ CRUD・タグ検索・ページネーション・Pydantic バリデーション）
 - [ ] 自動テスト（`pytest` + `TestClient`）
 - [ ] レイヤード設計への分割・DI（`Protocol` + `Depends`）・例外ハンドリング分離
 - [ ] PostgreSQL + SQLAlchemy 2.0 + Alembic による永続化
