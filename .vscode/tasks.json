@@ -9,5 +9,11 @@
       "command": "uv run uvicorn practice.main:app --reload",
       "problemMatcher": []
     },
+    {
+      "label": "テスト",
+      "type": "shell",
+      "command": "uv run pytest -v",
+      "problemMatcher": []
+    },
   ]
 }
